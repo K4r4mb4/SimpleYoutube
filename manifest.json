@@ -1,15 +1,23 @@
 {
+    "manifest_version": 2,
     "name": "SimpleYoutube",
     "version": "1.0",
     "description": "Get a stressfree youtube experience!",
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
-    },
+    "content_scripts": [
+        {
+            "css": [
+                "hide_content.css"
+            ],
+            "matches": [
+                "*://*/*"
+            ],
+            "include_globs": [
+                "*://*.youtube.*/*"
+            ],
+            "run_at": "document_start"
+        }
+    ],
     "permissions": [
         "declarativeContent"
-    ],
-    "manifest_version": 2
+    ]
 }

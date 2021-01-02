@@ -1,0 +1,25 @@
+div#contents.style-scope.ytd-rich-grid-renderer {
+    display:none !important;
+}
+
+#items ytd-guide-entry-renderer:nth-of-type(2) {
+    display:none;
+}
+
+#primary {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#secondary {
+    min-width: 0px !important;
+    width: 0px !important;
+}
+
+#related {
+    display:none;
+}
+
+.ytd-comments {
+    display: none !important;
+}
