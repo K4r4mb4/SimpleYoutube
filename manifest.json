@@ -9,10 +9,7 @@
                 "hide_content.css"
             ],
             "matches": [
-                "*://*/*"
-            ],
-            "include_globs": [
-                "*://*.youtube.*/*"
+                "https://youtube.com/*"
             ],
             "run_at": "document_start"
         }
