@@ -2,6 +2,18 @@ div#contents.style-scope.ytd-rich-grid-renderer {
     display:none !important;
 }
 
+.html5-endscreen {
+    display:none !important;
+}
+
+.ytp-upnext {
+    display:none !important;
+}
+
+.ytp-ce-element {
+    display:none !important;
+}
+
 #items ytd-guide-entry-renderer:nth-of-type(2) {
     display:none;
 }
